@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",          // версия JS на выходе
+    "module": "CommonJS",        // модульная система
+    "strict": true,              // включить все строгие проверки
+    "esModuleInterop": true,     // корректная работа import/require
+    "outDir": "dist",            // куда компилировать
+    "rootDir": "src",            // откуда брать .ts-файлы
+    "skipLibCheck": true         // ускорить проверку типов
+  }
+}
